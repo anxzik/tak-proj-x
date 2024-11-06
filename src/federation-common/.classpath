@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
+	<classpathentry kind="src" path="/takserver-common">
+		<attributes>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/takserver-fig-core">
+		<attributes>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/rol">
+		<attributes>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/takserver-plugins">
+		<attributes>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/takserver-protobuf">
+		<attributes>
+			<attribute name="without_test_code" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/3.1.12/850a334b874078910c507252f8499857c5bdea34/spring-boot-starter-data-mongodb-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-mongodb/3.1.12/748be81257e597e51c7851e843636f11465a92a0/spring-boot-starter-data-mongodb-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.1.12/8c445fe4207603e0d8cebbd98aafde8a9eef215f/spring-boot-starter-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/3.1.12/97cf521e6e5c7e8e6da65f3a095d35c77d321fbf/spring-boot-starter-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.1.12/6648c5b1fa1bf66cfa1355a47762a6fa0ab4cbe/spring-boot-starter-logging-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/3.1.12/9847011e77dc0d8c2e5f4f9c597b2df4bfa5b283/spring-boot-starter-logging-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.23.1/e2cf080046879ae0e2d79b7c08fea21e64620a8/log4j-to-slf4j-2.23.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.23.1/425ad1eb8a39904d2830e907a324e956fb456520/log4j-to-slf4j-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.23.1/b504efc545603fa3364ae397fe733cb9f527e67e/log4j-api-2.23.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.23.1/9c15c29c526d9c6783049c0a77722693c66706e1/log4j-api-2.23.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/2.0.13/7bf7b08626c3ef6b7b89d084abb2b51c4b83f94a/log4j-over-slf4j-2.0.13-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/2.0.13/3c3a3e4ccd5ed944cd766af124fa841b6372b7da/log4j-over-slf4j-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-slf4j/2.15.0/b3bade51b522a08a4ab5408639232e90bd4abc79/ignite-slf4j-2.15.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-slf4j/2.15.0/f3fd445996328a28723172bcb275c0ff494acf6d/ignite-slf4j-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/9a803965be1f6709795aeaf17d7a71c18791dcda/HikariCP-5.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/5.0.1/a74c7f0a37046846e88d54f7cb6ea6d565c65f9c/HikariCP-5.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/4.1.12/a978b5f6f91b8b748741ec30f49ff0af60e2307b/spring-data-mongodb-4.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/4.1.12/cc8a4bc6899a48603011ad99081ae484b988fe6c/spring-data-mongodb-4.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.1.12/70a396f7e58150099959040acb464e0fde890fa5/spring-data-commons-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.1.12/d535e658ce3a4f136484be0a287af3bfcb0a1810/spring-data-commons-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.14/1b0b0b96069e3ec3b4d8e5cbffc0a56e633063de/logback-classic-1.4.14-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.4.14/d98bc162275134cdf1518774da4a2a17ef6fb94d/logback-classic-1.4.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/91b642c6dead52faad3a6b762607d896e143a6e3/jul-to-slf4j-2.0.13-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.13/a3bcd9d9dd50c71ce69f06b1fd05e40fdeff6ba5/jul-to-slf4j-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/e7a3edf3c9b41ce9d4daeee609fc59cb2730f67f/slf4j-api-2.0.13-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/80229737f704b121a318bba5d5deacbcf395bc77/slf4j-api-2.0.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.1.12/aa59313efc1f60fc90d6c47404a6c75fef664482/spring-boot-autoconfigure-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.1.12/e58a84d4b95988fe003643af58d496dd619af344/spring-boot-autoconfigure-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.12/937fd526b34f5fac33c926b03f3cff042a391998/spring-boot-3.1.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.1.12/d731321669726ad011fb497eaf1fab5e647c047d/spring-boot-3.1.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.0.22/7b0055013d7c38b5705e4931ee5f6727ef2aa03e/spring-context-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.0.22/8c695e14b927b5e4dc73f51e8a5f0d8849bad367/spring-context-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.0.22/4a2c499c2473abf24461485fb1cfd52a96476718/spring-aop-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.0.22/2e28541ec9d78cd9f49114fca434892141f532ac/spring-aop-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.0.20/878480fcce43c1de467daa53c841dd123a39b3c1/spring-tx-6.0.20-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.0.20/b14437b4a50e4823b9b4a7233e52b921062ca5f1/spring-tx-6.0.20.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.0.22/7fecc813179ed2d9ab37ad4821233fbd1c4ebb80/spring-beans-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.0.22/dd377a672c03726101dc2c3b9b821fb19635b76c/spring-beans-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-kubernetes/2.15.0/e1c12342225ec3e5b78ed4da551a2766b5975cc1/ignite-kubernetes-2.15.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-kubernetes/2.15.0/3a09168272a090c13218809be193704ece57ce7/ignite-kubernetes-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/198b882fdc2c72c89c63401d946f6ba46c3acea3/commons-lang3-3.12.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.12.0/c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e/commons-lang3-3.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-indexing/2.15.0/9d36b90bebf80c49cb4e47fb2e09cb19e0e634ee/ignite-indexing-2.15.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-indexing/2.15.0/44e68250db3396895523cd618e99d9d811fa7ac9/ignite-indexing-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/843bc57fd042051e994846da8167bb7ca677a6d/commons-codec-1.15-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.15/49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d/commons-codec-1.15.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt/0.9.1/4341772ad269e161a35d2d0ad66f4f6d2f5e79b9/jjwt-0.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt/0.9.1/54d2abfc3e63a28824d35bf600d6a5d627da681a/jjwt-0.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.1/7723d0945b45888b9d8af6e0358a5f5d5cdec2fd/jakarta.xml.bind-api-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.1/ca2330866cbc624c7e5ce982e121db1125d23e15/jakarta.xml.bind-api-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.3/c5298003edb130dd2fd0ccd4cfc5e9a54fdac965/jackson-databind-2.14.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.14.3/ba0373b04bf0f03b0cd268cd2e5e8444aaaf9208/jackson-databind-2.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.3/afe942ced66c08cbd2955b7f8cc34c98819dda55/jackson-core-2.14.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.14.3/4fa101f81504ed6811bf1823270adb51a9b45ff3/jackson-core-2.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.3/7f6c2b8b7a2262c45e45f7079ca6d6a96cd19e24/jackson-annotations-2.14.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.14.3/b49701acb02b8e95ae1967821cfbafc220cf5795/jackson-annotations-2.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.14.3/e66911147e62af9ca76f280fe56493c0773ebebd/jackson-dataformat-yaml-2.14.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.14.3/cf8550a0c965aa3a4d08c3857e3f44dae9db9f8b/jackson-dataformat-yaml-2.14.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.100.Final/4e43755159b2933429b08e86a721909490cf6638/netty-transport-native-epoll-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.100.Final/d83003b8eac838e4bc3f7662a22f9f2d879c0fe4/netty-transport-native-epoll-4.1.100.Final-linux-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.60.0/c62307410861ca85d3b3265aa8911c7ce1134efc/grpc-stub-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.60.0/e6d3d8ea4ef1f0248b1d68549c541032f73121e9/grpc-stub-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.1-android/887ae16f4304db1e0dc84f45f8dcc0071002234/guava-32.0.1-android-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/32.0.1-android/d3fe54a75aeaca33fc562a2a9c1dc181e54cc5e9/guava-32.0.1-android.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.intellij/annotations/12.0/4943118f12f706a8820f73529fcb8f5853bc0fed/annotations-12.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.intellij/annotations/12.0/bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539/annotations-12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/2ef0187124bbfc7aed3038d4ffdd2241e8992937/commons-io-2.11.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.11.0/a2503f302b11ebde7ebc3df41daebe0e4eea3689/commons-io-2.11.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-spring-cache-ext/1.0.0/12d15cb92db9b338344886048f2b0a0a4fc98920/ignite-spring-cache-ext-1.0.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-spring-cache-ext/1.0.0/98d2d96292002f84c6a35f2323deda5d7bfcf06f/ignite-spring-cache-ext-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.0.2/6104d835ddbfced7b5bb66213a1c9061a86882af/caffeine-3.0.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.0.2/e26e04138abe2db5ab227bd2b8b3337f83c9cf03/caffeine-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.72/7ef123d5dfb6f839b41265648ff1be34982d50f8/jcommander-1.72-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.72/6375e521c1e11d6563d4f25a07ce124ccf8cd171/jcommander-1.72.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.0.22/2a701b090d12870ef3f63b0ab3b8eaa8454573dc/spring-expression-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.0.22/5eb6d5c24db194aa49386e3054d6a31a846b1efc/spring-expression-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.22/99110a9745749c701ee3b90a14c5ce58162b27e0/spring-core-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.0.22/cb79478f876d7f075de48956669c553e36dc4460/spring-core-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.9.1/b92bda65022dc874caaa8c22582160eea6d7b7ac/mongodb-driver-sync-4.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.9.1/38dfe9593bc7c268b1bc735d3ce682af6cdb6fa/mongodb-driver-sync-4.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-core/2.15.0/728bb8fe1d4059430d6a9a49e6a3a7db0d70546f/ignite-core-2.15.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-core/2.15.0/da2f2c9272f95ff53db4f74e4dc7e0766c39b5d5/ignite-core-2.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.25.0/a7a132c7c443597ded09233a8421bbc2486e4c8a/perfmark-api-0.25.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.25.0/340a0c3d81cdcd9ecd7dc2ae00fb2633b469b157/perfmark-api-0.25.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty/1.60.0/8009be7c9df7b2b118f276dedef45a6a57b71470/grpc-netty-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty/1.60.0/6f32351ab68162e6729f8a5d78ddbc6c1db8cac/grpc-netty-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.60.0/6ef123b98b3f8fa988cf55903d5b399937351895/grpc-protobuf-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.60.0/d0d0b12ed49426d5638aad426edf17da56033450/grpc-protobuf-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.61.Final/a52fce30407ffcbb38fb0edda64d81c56c331fe7/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.61.Final/cc2ba8b1c1f5acebfa314601aefefc1407056cdf/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.61.Final/efef10166c644b9ea9f4e62bfed12a5bb37b55a/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.61.Final/556e60a7ecd7f32e6cdc61cfba6c93d2b144889d/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.61.Final/a60887fcc4b03be4b4c065e085ec099a59c1dc25/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.2/d0310cf32e4c43f65b942c18cb2cc2bccfe2de37/jakarta.activation-api-2.1.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.2/640c0d5aff45dbff1e1a1bc09673ff3a02b1ba12/jakarta.activation-api-2.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/97257a0e34679175cc00444a64fa42d6bb53e23f/snakeyaml-1.33-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.33/2cd0a87ff7df953f810c344bdf2fe3340b954c69/snakeyaml-1.33.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.10.1/4ecc203f1017e9900aa8f826f7167af545898dda/antlr4-4.10.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.10.1/fe5750f4c8fa1dfc3fa2c0722f0fb9e363b0c542/antlr4-4.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/563dcb685903c96ce8abbd03adf7fa49e19aa8b4/gson-2.3.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.22.0/da6840b83baa3efe0844706ab7f9c55cc45f6c53/proto-google-common-protos-2.22.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/2.22.0/627126f6a05085dab0caba68dcdad118512975ef/proto-google-common-protos-2.22.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.24.0/aada4fdc16275d82c1186b52495462ba9caa17f4/protobuf-java-3.24.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.24.0/850a0efbee73911b2c30fa2238a549244524d31e/protobuf-java-3.24.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.3/fd3c592b44ddb513f9888441ca3510e9f1bcdeb3/dom4j-2.1.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.dom4j/dom4j/2.1.3/a75914155a9f5808963170ec20653668a2ffd2fd/dom4j-2.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.19.0/3364ec0a56a7088289eaa2771cf2d7529c0b8cd2/jts-core-1.19.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.19.0/3ff3baa0074445384f9e0068df81fbd0a168395a/jts-core-1.19.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.100.Final/e6573edf249410aacced1d4b1c0c99d1756af299/netty-transport-classes-epoll-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-classes-epoll/4.1.100.Final/78489936ca1d91483e34a31d04a3b0812386eb39/netty-transport-classes-epoll-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.100.Final/7e75598f5e768ef40c6d2b1a0f5a37f5807d3f1c/netty-codec-http2-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.100.Final/cbf1a430ea44dbdedbcde16b185cbb95f28d72c7/netty-codec-http2-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.100.Final/d8be0b54191325da735d0c28887c0f5cda98e4e3/netty-codec-http-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.100.Final/992623e7d8f2d96e41faf1687bb963f5433e3517/netty-codec-http-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.100.Final/98ccfcd1e1b4d217fe7ab98909570362379fe3f5/netty-handler-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.100.Final/4c0acdb8bb73647ebb3847ac2d503d53d72c02b4/netty-handler-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.100.Final/76f5ca086b771a3a88a49c60f04b954266721a5b/netty-transport-native-unix-common-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.100.Final/648ff5571022dbfa6789122e3872477bbf67fa7b/netty-transport-native-unix-common-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.100.Final/fcc7695974a619ce8e2390bb6cca48aa797d5386/netty-codec-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.100.Final/9c3c71e7cf3b8ce3bfc9fa52a524b9ca7ddf259c/netty-codec-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.100.Final/743ad4b9efa250a468bbb45dc8c43777d30ff660/netty-transport-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.100.Final/6620fbfb47667a5eb6050e35c7b4c88000bcd77f/netty-transport-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.100.Final/156438ae717cbaec24227c4df3d0f3b24db864ab/netty-buffer-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.100.Final/39b05d2d4027971bf99111a9be1d7035a116bb55/netty-buffer-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.100.Final/4eeb98383b8efc07dffaf71a36dd88806a48e802/netty-resolver-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.100.Final/fe62f9ccd41b8660d07639dbbab8ae1edd6f2720/netty-resolver-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.100.Final/e499ae47879ccf01c77a0bc129774efa7a5d385a/netty-common-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.100.Final/847f942381145de23f21c836d05b0677474271d3/netty-common-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.60.0/74f27c84a5f714516bb2f32a69d0bd95e3a0cbdc/grpc-core-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.60.0/fa98a91e4c5a0e3b1c447d3b3eef5417d78f5e2c/grpc-core-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.60.0/294070331306a3fa676b72a909900c4808481250/grpc-protobuf-lite-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.60.0/97b09b2b1f78403430738907bf42a31669672cad/grpc-protobuf-lite-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.60.0/ebdd974aee8129ae5e529a7c8cbcf326f1b5386a/grpc-api-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.60.0/757db39fe53fd9515ecaca9078cfa607cb2dc54e/grpc-api-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/ee4ecf6c55e3f2b05b839aa05c70f1298437ebe9/checker-qual-3.33.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.33.0/de2b60b62da487644fc11f734e73c8b0b431238f/checker-qual-3.33.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.20.0/239e276cf68d4efea905bde8d6b8b8cc79d61123/error_prone_annotations-2.20.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.20.0/bd4d8f4a02886a26b60c76048547a453691fcec3/error_prone_annotations-2.20.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/74fb66e276fc42784d884d51f841e35232bc90de/j2objc-annotations-2.8-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/2.8/c85270e307e7b822f1086b93689124b89768e273/j2objc-annotations-2.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/8.11.2/df9758d8470124a6a24e58a2599a2606ddae89e1/lucene-analyzers-common-8.11.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/8.11.2/7a74c5c2dd082b08c644a9016bc6ff66c8f27cc/lucene-analyzers-common-8.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/8.11.2/42d9d6639101a7469d9a60bd7d0cda8f9cbc7176/lucene-queryparser-8.11.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/8.11.2/1886e3a27a8d4a73eb8fad54ea93a160b099bc60/lucene-queryparser-8.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.11.2/30e72dd374d212a40e5b33353805f6ba6a5ffe4f/lucene-core-8.11.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.11.2/57438c3f31e0e440de149294890eee88e030ea6d/lucene-core-8.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/23b998de929dba8b42a815057517f997d8b148e9/h2-1.4.197-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.197/bb391050048ca8ae3e32451b5a3714ecd3596a46/h2-1.4.197.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-spring-data-commons/1.1.0/47cc84af75b86f8f7e61aacb2cc576389751aa8d/ignite-spring-data-commons-1.1.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.ignite/ignite-spring-data-commons/1.1.0/95110c791b053eb308b8f6b9509ddb120181fad4/ignite-spring-data-commons-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.22/602bbdeeb0bd66baa3c2022289e775b819226bcc/spring-jcl-6.0.22-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.0.22/f275e40c3b64d9ce997433e82d7ed9c7462c1b99/spring-jcl-6.0.22.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/3beea3ed2e687d9bd8a78c00e18951fffccefe90/jakarta.annotation-api-2.1.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.9.1/c4262b21c9d63b633754d130a1332ff973487c11/mongodb-driver-core-4.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.9.1/eae9e4ce359af23bed2208f7d6c28be236288d30/mongodb-driver-core-4.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.9.1/6f99dc06291e9f20b462ce438b4b4feaa028a0c1/bson-4.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.9.1/49ee664d02bd6ee138e677f1113934c24e7b42c7/bson-4.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.cache/cache-api/1.0.0/71f0adeaf098d78a17774b11f6c83c8d90c47721/cache-api-1.0.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.cache/cache-api/1.0.0/2b57384801243f387f1a2e7ab8066ac79c2a91d3/cache-api-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.3/c3bc8659eca392a635059c6cda7b1365dfbe5a43/annotations-16.0.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/16.0.3/62c7299ced2a089cc541726c6d763da9417604a0/annotations-16.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.61.Final/27742406855cfcad2ed35dccbadb17fc0ebf1ee6/netty-tcnative-classes-2.0.61.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-classes/2.0.61.Final/4c6ae851ed97921bc6c6b64e019c2b039f49131a/netty-tcnative-classes-2.0.61.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/a5214c71b2fa1d776d69674bf75eeb3f1fee8a62/antlr4-runtime-4.10.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.10.1/10839f875928f59c622d675091d51a43ea0dc5f7/antlr4-runtime-4.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.3.3/e4c005584516682d3f88d741c56246f03e31e5e8/ST4-4.3.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/ST4/4.3.3/2a894d43f827164bcf4dc0ef54fa8c0b9c51d50c/ST4-4.3.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.3/5dec145eac1c84b12e5aa1fc5444e5c02bcee16f/antlr-runtime-3.5.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.antlr/antlr-runtime/3.5.3/9011fb189c5ed6d99e5f3322514848d1ec1e1416/antlr-runtime-3.5.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/98d31576a54fd48dabf1fcf67a311dd9f0e4f66e/org.abego.treelayout.core-1.0.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.abego.treelayout/org.abego.treelayout.core/1.0.3/457216e8e6578099ae63667bb1e4439235892028/org.abego.treelayout.core-1.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/ef782abad0d3f1d30644c4023a6bbc6fe371e23a/javax.json-1.0.4-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish/javax.json/1.0.4/3178f73569fd7a1e5ffc464e680f7a8cc784b85a/javax.json-1.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/69.1/3e19ca5465fce86a094c24df0b6c9256e53c8885/icu4j-69.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/69.1/ff666ac55986650893aacb9e2e0003538e9799c0/icu4j-69.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/8.11.2/284d184a7e2b5c71cce0a7c6d0e7d147aea4adbb/lucene-queries-8.11.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/8.11.2/c86c8bbd6dddfb6870fc2f59989cb89d50290d5a/lucene-queries-8.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/8.11.2/dd58b74f1e9b40b4fff16fe9225ab10c0505cc81/lucene-sandbox-8.11.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/8.11.2/5ff823b4a429ccf842386a008b08bddfa88d9f87/lucene-sandbox-8.11.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.14/7d9dcce57ba091e1e4b4793b244508ea28f52b48/logback-core-1.4.14-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.4.14/4d3c2248219ac0effeb380ed4c5280a80bf395e8/logback-core-1.4.14.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback.contrib/logback-json-classic/0.1.5/91da8622b39a321df41bf0303b11b3eda9f52888/logback-json-classic-0.1.5-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback.contrib/logback-json-classic/0.1.5/f7fd4e747a9b0c50fc4f71b0055d5bea64dc05c3/logback-json-classic-0.1.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.6/f476c6c116cd4702a0df07ab4f217f1d02bb2ed9/logback-classic-1.5.6-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.6/afc75d260d838a3bddfb8f207c2805ed7d1b34f9/logback-classic-1.5.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.1.9/ad917c1cdf360dbee2c452afd28943dab3a8ea4b/spring-security-core-6.1.9-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.1.9/bda1553d9af96ced47f982b2df4f0919e80d30d1/spring-security-core-6.1.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/5.8/3afef45fd23656fd2d6c8e13cfb6c45d5d094e99/opencsv-5.8-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.opencsv/opencsv/5.8/8ec9e6c5e72d83a4122498344a6cf1d22dc08322/opencsv-5.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/99ad76c831fcf0edead47f3aa9c0731653a0845d/commons-text-1.10.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-text/1.10.0/3363381aef8cef2dbc1023b3e3a9433b08b64e01/commons-text-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/uk.m0nom/javaapiforkml/3.0.7/f0699dd3c8b7c4d8aeb15295822a2d54be2b9fa/javaapiforkml-3.0.7-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/uk.m0nom/javaapiforkml/3.0.7/6fc74226ab49010f4184a899faa022aa0c12d104/javaapiforkml-3.0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.1.7.Final/4f5b9270f8cb3d6b14f3e843840cc824e23ae21a/hibernate-core-6.1.7.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.1.7.Final/343f47b34c96fe9c44bf9b219a7b3c5d6d2fc90e/hibernate-core-6.1.7.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.3/af90e70802384f7e05901e0067b6d86121f4c994/jaxb-runtime-4.0.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.3/93af25be25b2c92c83e0ce61cb8b3ed23568f316/jaxb-runtime-4.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-xjc/4.0.1/c22b67e19486702ad2d046473f2b067f9963226a/jaxb-xjc-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-xjc/4.0.1/de778abe18b6e95e3520f7e528651219e2df9de7/jaxb-xjc-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.3/be143ae251a6e55ac0f97822a3a345657de6c241/jaxb-core-4.0.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.3/e9093b4a82069a1d78ee9a3233ca387bca88861f/jaxb-core-4.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.24.1-GA/7c80ce6145aa19d7219dc6406286061701db5525/javassist-3.24.1-GA-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.24.1-GA/921b466d6a14a8edbe25923c973fd767fc71c045/javassist-3.24.1-GA.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.60.0/7d0f5a9b0712678300cee15916a4b1e7f885f60c/grpc-context-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.60.0/f2f13def2e6d35a7d81aaca5932ca83f539c7869/grpc-context-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-util/1.60.0/82b955098ab987c772ae17b7ed4e2078554cd85d/grpc-util-1.60.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-util/1.60.0/b693c2cdad77255583c0d8bb1735fa4de168786e/grpc-util-1.60.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jaxen/jaxen/1.2.0/6c420545d72198d569e6cad3e4cd86ebb68d353/jaxen-1.2.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jaxen/jaxen/1.2.0/c10535a925bd35129a4329bc75065cc6b5293f2c/jaxen-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.1/5c411f8667d0064a7fb780c0948ee2b829bb2ebe/joda-time-2.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.1/c261495d1e01df849cdb3cbc941564018f0d3539/joda-time-2.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/8d479b8d71750d5c2b8e58034b80231994cba6ec/jakarta.persistence-api-3.1.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.1/661e619dc11106d2ea38a9cebb28928ca2d8fa32/angus-activation-2.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.1/eaafaf4eb71b400e4136fc3a286f50e34a68ecb7/angus-activation-2.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.0/b29e84cfffae4be26d4a4c9443d9f246ad4ec63e/snakeyaml-2.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.0/3aab2116756442bf0d4cd1c089b24d34c3baa253/snakeyaml-2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/982a90132e942f302e6fe79d6e78c4bc2e998569/gson-2.10.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/f00e0ba867d1810f255876631ab440e0725a9af0/commons-beanutils-1.9.4-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.4/d52b9abcd97f38c81342bb7e7ae1eee9b73cba51/commons-beanutils-1.9.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/6260e416ff273ee938b31b0a8e512a367b1ee500/commons-collections4-4.4-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-collections4/4.4/62ebe7544cb7164d87e0637a2a6a2bdc981395e8/commons-collections4-4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/15bba08e3a239d54b68209c001f9c911559d2fed/json-simple-1.1.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.100.Final/3e7cb7bc5d0d4ccd37230289b9b37df7d34c0e6f/netty-handler-proxy-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.100.Final/af3cf676eed30184215426ecf0f0dde15555ea9c/netty-handler-proxy-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.100.Final/dff97a0cc292cd8cbba30d174179c52ce57e4445/netty-codec-socks-4.1.100.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.100.Final/a9fbf4d64b08abed542eefd5f7aed4807edca56f/netty-codec-socks-4.1.100.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback.contrib/logback-json-core/0.1.5/378f8f75af8c4560330e7d05c453800168d36c7e/logback-json-core-0.1.5-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback.contrib/logback-json-core/0.1.5/90bdb547819957fc940188f5830b7b59375f6fdd/logback-json-core-0.1.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.6/ce8134214167faea5ec69cd294c994efe731ef8e/logback-core-1.5.6-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.6/41cbe874701200c5624c19e0ab50d1b88dfcc77d/logback-core-1.5.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.3/a0769eb43f9796910dc18848ddec4ac99124f5b1/txw2-4.0.3-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.3/47b8fe31c6d1a3382203af919400527389e01e9c/txw2-4.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.2/95757fed099f3293a3510c88a83a2f0b2985fe21/istack-commons-runtime-4.1.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.2/18ec117c85f3ba0ac65409136afa8e42bc74e739/istack-commons-runtime-4.1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.1.9/e8529ad6c6fd91f67481e81e36f46e6e2560f882/spring-security-crypto-6.1.9-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.1.9/2dba0f29eb7cb8d8824193985933ea361502420c/spring-security-crypto-6.1.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.10.13/f92d4575f25dcf6c78520ef9c6c0dc5e01717d98/micrometer-observation-1.10.13-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.10.13/7e1a57f1eb572ae126046cda65654525a9933a4e/micrometer-observation-1.10.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.1.0/d90a405211798b013b8ee3d54f70edc0913a28b0/annotations-24.1.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.1.0/7af6a669488450c4a07c2c3254e2151df42d7d04/annotations-24.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.9.1/94491e0dc3ed967b43468886174b4645799c1576/bson-record-codec-4.9.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.mongodb/bson-record-codec/4.9.1/af61c792b268302acfc833197345c606111306b7/bson-record-codec-4.9.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/dd58a0151c110e27c6c18abd45b01792f46d3fcd/stax-api-1.0-2-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.xml.stream/stax-api/1.0-2/d6337b0de8b25e53e81b922352fbea9f9f57ba0b/stax-api-1.0-2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/net.java.dev.msv/xsdlib/2013.6.1/fea8f00c642593075155570bd3e2c72bcc2262c1/xsdlib-2013.6.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/net.java.dev.msv/xsdlib/2013.6.1/280f7c45aaec5102cc756d1afdb416b7775f2ef4/xsdlib-2013.6.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.12/614c7681949a44e0884a1745ac21c4eb6811c019/jaxb-api-2.2.12-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/javax.xml.bind/jaxb-api/2.2.12/4c83805595b15acf41d71d49e3add7c0e85baaed/jaxb-api-2.2.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/pull-parser/pull-parser/2/c2f040085bfcd35963e9504bec11dac57cd0a86e/pull-parser-2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/8dd0ddee19fe6ed0182b18e0e621d1c8b4d8d56/xpp3-1.1.4c-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/xpp3/xpp3/1.1.4c/9b988ea84b9e4e9f1874e390ce099b8ac12cfff5/xpp3-1.1.4c.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.0/a4de8d5c97201188f2385cdd711296d073a6e719/jakarta.transaction-api-2.0.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.0/24a0525b4acfbca4086d2f1278be3a084fe1c67d/jakarta.transaction-api-2.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.3.Final/85e076a2f4d153c57f4dc414e7212a1b1e1a29fd/jboss-logging-3.4.3.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.4.3.Final/c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea/jboss-logging-3.4.3.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/113904346d97dbdf52883c90ef1ccd0bb8ffb74d/hibernate-commons-annotations-6.0.6.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/6.0.6.Final/77a5f94b56d49508e0ee334751db5b78e5ccd50c/hibernate-commons-annotations-6.0.6.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.4.2.Final/798180cc939fc34e3fc6b7e7771f9bde1c63d14a/jandex-2.4.2.Final-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.4.2.Final/1e1c385990b258ff1a24c801e84aebbacf70eb39/jandex-2.4.2.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/504edac38ff03cc5ce1d0391abb1416ffad58a99/classmate-1.5.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.5.1/3fe0bed568c62df5e89f4f174c101eab25345b6c/classmate-1.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.12.18/f11ab5e3b584076fad2ddf723e09b0ea0d8f34ac/byte-buddy-1.12.18-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.12.18/875a9c3f29d2f6f499dfd60d76e97a343f9b1233/byte-buddy-1.12.18.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.0/2ebdf75142c72a7d9e0611ad8117eba79866d630/jakarta.inject-api-2.0.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.0/46fc8560b6fd17b78396d88f39c1a730457671f0/jakarta.inject-api-2.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.10.13/f3b524baea16c9ff360d0bc58d41f66d6d862e07/micrometer-commons-1.10.13-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.10.13/e15b6996e26da2316b2a94af6a2387322582b398/micrometer-commons-1.10.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/xsom/4.0.1/15843c47ed9cb6f5f2916053d8be66a7fd9f4416/xsom-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/xsom/4.0.1/c5090eb5be13b371030fd61eb33c82e2d22f3021/xsom-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/codemodel/4.0.1/95fa267427314bc613856c155cf700bd9203e572/codemodel-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/codemodel/4.0.1/6b4f0758275a4f269fc3ef3aa60236095090840b/codemodel-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind.external/rngom/4.0.1/ff5d5590f52bbf916e3193a1c96968fc489b81d6/rngom-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind.external/rngom/4.0.1/2ebd034c17dab80fe7e077cf4743f9191146284c/rngom-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.dtd-parser/dtd-parser/1.5.0/b1ceb5a2c134b1c51b90f247c75ded6ea4d5ae74/dtd-parser-1.5.0-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.dtd-parser/dtd-parser/1.5.0/7e15971a0509f6b7091f49da3a2a727cfa756442/dtd-parser-1.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-tools/4.1.1/8dc517a7b305ae7eef632c14879dccac37acc136/istack-commons-tools-4.1.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-tools/4.1.1/c54b869d6f419c6a2f4a464bd7931156bf4ab1b9/istack-commons-tools-4.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/deb22daeb37bdcbc14230aeaeddce38320d6d0f9/annotations-4.1.1.4-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.23/d4026d5c3c5566247873b7f62ce8e487ddfc856/animal-sniffer-annotations-1.23-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.23/3c0daebd5f0e1ce72cc50c818321ac957aeb5d70/animal-sniffer-annotations-1.23.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/relaxngDatatype/relaxngDatatype/20020414/863be85fb568c771ce2f59a5ff48e1cd3f3ad587/relaxngDatatype-20020414-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/relaxngDatatype/relaxngDatatype/20020414/de7952cecd05b65e0e4370cc93fc03035175eef5/relaxngDatatype-20020414.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind.external/relaxng-datatype/4.0.1/97e54f0fa3cde36d4816bb729f6e4630192e1d3b/relaxng-datatype-4.0.1-sources.jar" kind="lib" path="/home/aaronarcher1/.gradle/caches/modules-2/files-2.1/com.sun.xml.bind.external/relaxng-datatype/4.0.1/e244fe7da374c28f2bb545110527c46d15cfad04/relaxng-datatype-4.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

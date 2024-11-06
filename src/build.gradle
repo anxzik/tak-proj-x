@@ -2,7 +2,30 @@
 //import com.github.jk1.license.render.InventoryHtmlReportRenderer
 //import com.github.jk1.license.render.XmlReportRenderer
 
+
+
+
+// val environmentJavaHome = System.getenv("JAVA_HOME")
+// val gradleJavaHome = Jvm.current()JavaHome
+
+// if (environmentJavaHome == null){
+//   throw GradleException("JAVA_HOME isnt set.")
+// }
+
+// if gradleJavaHome.toPath().toRealPath() != 
+// File(environmentJavaHome)toPath().toRealPath())
+// { throw GradleException("JAVA_HOME does not match Gradles Java.")
+// }
+
 buildscript {
+// plugins {
+//  id "com.osacky.doctor" version "0.10.0"
+// }
+
+
+
+
+
 
   repositories {
     mavenCentral()
@@ -16,7 +39,7 @@ buildscript {
 //    classpath 'gradle.plugin.se.bjurr.violations:violations-gradle-plugin:1.52.2'
 //    classpath 'com.github.jk1:gradle-license-report:1.17'
   }
-}
+
 
 apply plugin: 'eclipse'
 apply plugin: 'idea'
@@ -31,7 +54,7 @@ ext {
 
   def (tv, takrel1, takrel2) = gitdescribe.trim().tokenize('-')
 
-  if (takrel2 == null) {
+  if (takrel2 == '6') {
     takrel2 = '0'
   }
 
@@ -56,6 +79,16 @@ allprojects {
   apply plugin: 'idea'
 //  apply plugin: 'pmd'
 
+//  val environmentJavaHome = System.getenv("JAVA_HOME")
+//  val gradleJavaHome = Jvm.current().javaHome
+
+// if (environmentJavaHome == null){
+//     throw GradleException("JAVA_HOME isnt set.")
+// }
+// if (gradleJavaHome.toPath().toRealPath() !=
+// File(environmentJavaHome)toPath().toRealPath()){
+//     throw GradleException("JAVA_HOME does not match Gradles Java.")   
+// }
 
   sourceCompatibility = 17
   targetCompatibility = 17
@@ -177,6 +210,9 @@ subprojects {
 //      classpath 'gradle.plugin.se.bjurr.violations:violations-gradle-plugin:1.52.2'
 //      classpath 'com.github.jk1:gradle-license-report:1.17'
     }
+  
+  }
+  }
   }
 
 //  apply plugin: 'se.bjurr.violations.violations-gradle-plugin' // Normalizes quality reports for Gitlab CI
@@ -224,4 +260,4 @@ subprojects {
 //  clean {
 //    delete 'bin/'
 //  }
-}
+//}
